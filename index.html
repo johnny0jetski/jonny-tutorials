@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonny Tutorials - YouTuber</title>
+    <style>
+        body {
+            background-color: red;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d42a 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #35424a;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #main {
+            padding: 20px;
+        }
+        #main h2 {
+            color: #333;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Jonny Tutorials</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Om Meg</a></li>
+                    <li><a href="#videos">Videoer</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Velkommen til Jonny Tutorials</h1>
+            <p>Din kilde for de beste tutorials på YouTube!</p>
+        </div>
+    </section>
+
+    <div id="main" class="container">
+        <section id="about">
+            <h2>Om Meg</h2>
+            <p>Hei, jeg heter Jonny og jeg er en YouTuber som lager tutorials om ulike emner. Følg med for nyttige tips og triks!</p>
+        </section>
+
+        <section id="videos">
+            <h2>Videoer</h2>
+            <!-- Eksempel på innebygde videoer, erstatt 'VIDEO_ID' med faktiske YouTube video IDer -->
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!-- Legg til flere videoer etter behov -->
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Du kan kontakte meg via e-post på <a href="mailto:jonny@example.com" style="color: yellow;">jonny@example.com</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Jonny Tutorials &copy; 2024</p>
+    </footer>
+</body>
+</html>
